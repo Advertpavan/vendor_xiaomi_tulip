@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/xiaomi/tulip/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/xiaomi/tulip/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/xiaomi/tulip/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/xiaomi/tulip/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/xiaomi/tulip/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
     vendor/xiaomi/tulip/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
@@ -1719,6 +1720,7 @@ PRODUCT_PACKAGES += \
     imssettings \
     FingerprintExtensionService \
     PowerOffAlarm \
+    QFingerprintService \
     TimeService \
     WfdCommon \
     chargeonlymode
