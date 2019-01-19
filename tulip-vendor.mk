@@ -75,16 +75,57 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/tulip/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/tulip/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/xiaomi/tulip/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
     vendor/xiaomi/tulip/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/xiaomi/tulip/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
+    vendor/xiaomi/tulip/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
+    vendor/xiaomi/tulip/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/xiaomi/tulip/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libicuuc-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc-v27.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_makeupV2.so:system/lib/libjni_makeupV2.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_optizoom.so:system/lib/libjni_optizoom.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_panorama.so:system/lib/libjni_panorama.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_seestraight.so:system/lib/libjni_seestraight.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_sharpshooter.so:system/lib/libjni_sharpshooter.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_stillmore.so:system/lib/libjni_stillmore.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_trackingfocus.so:system/lib/libjni_trackingfocus.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
+    vendor/xiaomi/tulip/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libminikin-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin-v27.so \
+    vendor/xiaomi/tulip/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/tulip/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/tulip/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/tulip/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/tulip/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/tulip/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/xiaomi/tulip/proprietary/lib/liboptizoom.so:system/lib/liboptizoom.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveBlobDescriptor.so:system/lib/libscveBlobDescriptor.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveBlobDescriptor_stub.so:system/lib/libscveBlobDescriptor_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveCommon.so:system/lib/libscveCommon.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveCommon_stub.so:system/lib/libscveCommon_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveFaceLandmarks.so:system/lib/libscveFaceLandmarks.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveFaceLandmarks_stub.so:system/lib/libscveFaceLandmarks_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveFaceRecognition.so:system/lib/libscveFaceRecognition.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveImageCorrection.so:system/lib/libscveImageCorrection.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveObjectSegmentation.so:system/lib/libscveObjectSegmentation.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveObjectTracker.so:system/lib/libscveObjectTracker.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscveObjectTracker_stub.so:system/lib/libscveObjectTracker_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscvePanorama.so:system/lib/libscvePanorama.so \
+    vendor/xiaomi/tulip/proprietary/lib/libscvePanorama_lite.so:system/lib/libscvePanorama_lite.so \
+    vendor/xiaomi/tulip/proprietary/lib/libseemore.so:system/lib/libseemore.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
+    vendor/xiaomi/tulip/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/xiaomi/tulip/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
+    vendor/xiaomi/tulip/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
+    vendor/xiaomi/tulip/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
+    vendor/xiaomi/tulip/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/xiaomi/tulip/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/tulip/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/xiaomi/tulip/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -102,7 +143,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/xiaomi/tulip/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/xiaomi/tulip/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/xiaomi/tulip/proprietary/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/xiaomi/tulip/proprietary/lib/rfsa/adsp/libscveFaceLandmark_skel.so:system/lib/rfsa/adsp/libscveFaceLandmark_skel.so \
+    vendor/xiaomi/tulip/proprietary/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/tulip/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
+    vendor/xiaomi/tulip/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/tulip/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/tulip/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/tulip/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
@@ -114,24 +159,68 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/tulip/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/tulip/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/xiaomi/tulip/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libchromaflash.so:system/lib64/libchromaflash.so \
     vendor/xiaomi/tulip/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/tulip/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/tulip/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/tulip/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/tulip/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
     vendor/xiaomi/tulip/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/tulip/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/tulip/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_panorama.so:system/lib64/libjni_panorama.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_stillmore.so:system/lib64/libjni_stillmore.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_trackingfocus.so:system/lib64/libjni_trackingfocus.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
     vendor/xiaomi/tulip/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/tulip/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/tulip/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/tulip/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/tulip/proprietary/lib64/liboptizoom.so:system/lib64/liboptizoom.so \
     vendor/xiaomi/tulip/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveBlobDescriptor.so:system/lib64/libscveBlobDescriptor.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveBlobDescriptor_stub.so:system/lib64/libscveBlobDescriptor_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveCommon.so:system/lib64/libscveCommon.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveCommon_stub.so:system/lib64/libscveCommon_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveFaceLandmarks.so:system/lib64/libscveFaceLandmarks.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveFaceLandmarks_stub.so:system/lib64/libscveFaceLandmarks_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveFaceRecognition.so:system/lib64/libscveFaceRecognition.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveImageCorrection.so:system/lib64/libscveImageCorrection.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveObjectSegmentation.so:system/lib64/libscveObjectSegmentation.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveObjectTracker.so:system/lib64/libscveObjectTracker.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscveObjectTracker_stub.so:system/lib64/libscveObjectTracker_stub.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscvePanorama.so:system/lib64/libscvePanorama.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libscvePanorama_lite.so:system/lib64/libscvePanorama_lite.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libseemore.so:system/lib64/libseemore.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
+    vendor/xiaomi/tulip/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
     vendor/xiaomi/tulip/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/xiaomi/tulip/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/xiaomi/tulip/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/xiaomi/tulip/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/tulip/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
@@ -148,12 +237,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/xiaomi/tulip/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
+    vendor/xiaomi/tulip/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/xiaomi/tulip/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/xiaomi/tulip/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/tulip/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/xiaomi/tulip/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -172,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/xiaomi/tulip/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/xiaomi/tulip/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
+    vendor/xiaomi/tulip/proprietary/vendor/bin/remosaic_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/remosaic_daemon \
     vendor/xiaomi/tulip/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/xiaomi/tulip/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/xiaomi/tulip/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
@@ -190,9 +283,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/xiaomi/tulip/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/tulip/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MIUI_Time.ttf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/Miui-Light.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Miui-Light.ttf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/age_gender_bg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/age_gender_bg \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/crown_156_128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/crown_156_128.bin \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
@@ -207,24 +302,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/morpho_lowlight4.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/people_gender.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/people_gender.dat \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/score_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_bg.png \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/score_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_icon.png \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_ov02a10_ofilm_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_ov02a10_ofilm_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_ov02a10_ofilm_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_ov02a10_ofilm_india_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_ov02a10_sunny_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_ov02a10_sunny_global_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_ov02a10_sunny_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_ov02a10_sunny_india_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_ofilm_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_ofilm_global_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_ofilm_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_ofilm_india_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_qtech_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_qtech_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_qtech_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_qtech_india_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_sunny_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_sunny_cn_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k2l7_sunny_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k2l7_sunny_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k3T1_ofilm_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k3T1_ofilm_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k3T1_ofilm_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k3T1_ofilm_india_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k3T1_sunny_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k3T1_sunny_global_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k3T1_sunny_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k3T1_sunny_india_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k4h7_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k4h7_ofilm_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k4h7_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k4h7_sunny_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_ofilm_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_ofilm_global_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_ofilm_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_ofilm_india_i_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_qtech_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_qtech_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_qtech_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_qtech_india_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_sunny_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_sunny_cn_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/tulip_s5k5e8_sunny_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_sunny_global_ii_chromatix.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_imx376_ofilm_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_imx376_ofilm_global_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_imx376_sunny_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_imx376_sunny_global_ii_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_imx486_ofilm_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_imx486_ofilm_global_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_imx486_qtech_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_imx486_qtech_global_ii_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_ov13855_sunny_cn_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_ov13855_sunny_cn_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k2l7_ofilm_cn_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k2l7_ofilm_cn_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k2l7_qtech_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k2l7_qtech_cn_ii_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k3l8_ofilm_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k3l8_ofilm_cn_ii_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k5e8_ofilm_cn_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k5e8_ofilm_cn_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k5e8_ofilm_global_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k5e8_ofilm_global_i_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k5e8_qtech_cn_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k5e8_qtech_cn_ii_chromatix.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/whyred_s5k5e8_qtech_global_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/whyred_s5k5e8_qtech_global_ii_chromatix.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/camera/yuv_test.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/yuv_test.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -256,6 +364,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -263,20 +373,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_boe_ft8719_fhdplus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_boe_ft8719_fhdplus_video_mode_dsi_panel.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/ov7251_640x480_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov7251_640x480_cam_config.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/ov9282_stereo_1280x400_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov9282_stereo_1280x400_cam_config.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/ov9282_stereo_2560x800_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov9282_stereo_2560x800_cam_config.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/qvrservice_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config_stereo.xml \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/xiaomi/tulip/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/xiaomi/tulip/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-china.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-china.conf \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-india.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-india.conf \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-Youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-Youtube.conf \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-camera.conf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sgame.conf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/tulip/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -325,6 +442,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
@@ -334,6 +453,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
@@ -341,6 +461,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
@@ -360,8 +483,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libVDClearShot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDClearShot.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDSuperPhotoAPI.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
@@ -369,10 +494,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_whyred_imx486_qtech_global_ii_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_imx486_qtech_global_ii_dw9714v.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_whyred_s5k2l7_ofilm_cn_i_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_s5k2l7_ofilm_cn_i_ak7374.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_whyred_s5k2l7_qtech_cn_ii_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_s5k2l7_qtech_cn_ii_ak7374.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_tulip_s5k2l7_ofilm_i_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_tulip_s5k2l7_ofilm_i_ak7374.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_tulip_s5k2l7_qtech_ii_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_tulip_s5k2l7_qtech_ii_ak7374.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libactuator_tulip_s5k2l7_sunny_cn_ii_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_tulip_s5k2l7_sunny_cn_ii_ak7374.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
@@ -384,10 +509,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_beautyshot_exin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_exin.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_dualcam_refocus_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_front.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_t.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-hidlclient.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
@@ -400,406 +528,584 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_csidtg_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_preview.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_downscale.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_upscale.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_default.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_face_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_flash_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_fullsize_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_fullsize_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_video_default.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_downscale.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_upscale.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_default.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_face_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_flash_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_fullsize_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_fullsize_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_video_default.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_bokeh_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_120_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_60_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_hfr_90_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_pano_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_zsl_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_zsl_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_bokeh_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_120_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_60_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_hfr_90_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_pano_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_zsl_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_imx486_qtech_global_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_qtech_global_ii_zsl_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_ds_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_us_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_preview_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_default_video_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_face_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_flash_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_120_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_60_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_60_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_90_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_hfr_90_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_zsl_preview_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_ov13855_sunny_cn_i_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_ov13855_sunny_cn_i_zsl_video_bu64297.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_4k_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_4k_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_bokeh_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video_4k.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_120_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_60_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_hfr_90_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_pano_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video_4k.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_zsl_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_ofilm_cn_i_zsl_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_4k_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_4k_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_bokeh_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video_4k.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_default_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_default_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_120_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_60_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_hfr_90_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_pano_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video_4k.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_zsl_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k2l7_qtech_cn_ii_zsl_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_snapshot_hht.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_cpp_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_preview_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_default_video_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_face_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_preview_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_flash_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_120_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_120_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_60_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_60_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_90_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_hfr_90_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_snapshot_hdr.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_face.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_video_weixin.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_weixin_video_3a.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_zsl_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_zsl_preview_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_zsl_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k3l8_ofilm_cn_ii_zsl_video_ak7345.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_default_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_a3_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_ds_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_us_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_zsl_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_cn_i_zsl_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_default_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_a3_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_ds_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_us_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_zsl_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_ofilm_global_i_zsl_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_default_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_a3_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_ds_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_us_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_zsl_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_cn_ii_zsl_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_default_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_a3_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_common.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_ds_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_us_chromatix.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_cpp_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_default_video.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_120.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_60.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_hfr_90.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_liveshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_postproc.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_snapshot.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_video_full.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_zsl_preview.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_s5k5e8_qtech_global_ii_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_ofilm_india_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_global_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_global_i_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_ov02a10_sunny_india_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_ov02a10_sunny_india_i_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_global_i_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_ofilm_india_i_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_global_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_qtech_india_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_cn_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_4k_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_4k_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_snapshot_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_120_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_240.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_240_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_60_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_hfr_90_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_pano_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video_4k.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k2l7_sunny_global_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_5M.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_5M_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_downscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_snapshot_upscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_face_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_fullsize_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_fullsize_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_hdr_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_hdr_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_global_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_5M.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_5M_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_downscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_snapshot_upscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_face_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_fullsize_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_hdr_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_hdr_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_ofilm_india_ii_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_5M.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_5M_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_downscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_snapshot_upscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_face_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_fullsize_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_fullsize_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_hdr_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_hdr_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_global_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_global_i_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_bokeh_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_bokeh_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_bokeh_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_bokeh_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_5M.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_5M_hht.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_downscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_snapshot_upscale.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_cpp_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_bokeh_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_face_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_face_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_fullsize_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_fullsize_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_hdr_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_hdr_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_snapshot_hdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_default.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_face.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_video_weixin.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k3T1_sunny_india_i_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k3T1_sunny_india_i_weixin_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_liveshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_preview_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_snapshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_cpp_video_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_preview_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_snapshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_video_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_video_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_video_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_video_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_preview_3a_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_ofilm_i_zsl_video_3a_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_liveshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_preview_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_snapshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_cpp_video_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_default_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_default_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_preview_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_snapshot_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_video_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_video_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_video_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_video_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_preview_3a_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a_mihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a_mihdr.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k4h7_sunny_ii_zsl_video_3a_wechat.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_global_i_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_ofilm_india_i_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_global_ii_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_default_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_default_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_a3_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_ds_chromatix.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_us_chromatix.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_default_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_cn_ii_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_default_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_default_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_a3_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_common.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_ds_chromatix.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_us_chromatix.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_cpp_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_default_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_120.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_60.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_hfr_90.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_liveshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_postproc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_snapshot.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_video_full.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_zsl_preview.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_tulip_s5k5e8_sunny_global_ii_zsl_video.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
@@ -814,16 +1120,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmibokeh_636.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_636.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -842,6 +1153,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_arcsoftbokeh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcsoftbokeh_lib.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
@@ -905,6 +1217,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
@@ -913,34 +1226,44 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2xx.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_sunny_ov13855_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov13855_eeprom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_ov02a10_ofilm_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_ov02a10_ofilm_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_ov02a10_ofilm_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_ov02a10_ofilm_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_ov02a10_sunny_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_ov02a10_sunny_i.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_ov02a10_sunny_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_ov02a10_sunny_i_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_ofilm_i.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_ofilm_i_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_qtech_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_qtech_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_qtech_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_qtech_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_sunny_cn_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_sunny_cn_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k2l7_sunny_cn_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k2l7_sunny_cn_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k3T1_ofilm_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k3T1_ofilm_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k3T1_ofilm_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k3T1_ofilm_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k3T1_sunny_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k3T1_sunny_i.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k3T1_sunny_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k3T1_sunny_i_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k4h7_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k4h7_ofilm_i.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k4h7_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k4h7_ofilm_i_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k4h7_sunny_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k4h7_sunny_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k4h7_sunny_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k4h7_sunny_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_ofilm_i.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_ofilm_i_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_qtech_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_qtech_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_qtech_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_qtech_ii_eeprom.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_sunny_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_sunny_ii.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tulip_s5k5e8_sunny_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tulip_s5k5e8_sunny_ii_eeprom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx376_ofilm_global_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx376_ofilm_global_i.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx376_ofilm_global_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx376_ofilm_global_i_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx376_sunny_global_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx376_sunny_global_ii.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx376_sunny_global_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx376_sunny_global_ii_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx486_ofilm_global_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx486_ofilm_global_i.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx486_ofilm_global_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx486_ofilm_global_i_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx486_qtech_global_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx486_qtech_global_ii.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_imx486_qtech_global_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_imx486_qtech_global_ii_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_ov13855_sunny_cn_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_ov13855_sunny_cn_i.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_ov13855_sunny_cn_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_ov13855_sunny_cn_i_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k2l7_ofilm_cn_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k2l7_ofilm_cn_i.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k2l7_ofilm_cn_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k2l7_ofilm_cn_i_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k2l7_qtech_cn_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k2l7_qtech_cn_ii.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k2l7_qtech_cn_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k2l7_qtech_cn_ii_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k3l8_ofilm_cn_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k3l8_ofilm_cn_ii.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k3l8_ofilm_cn_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k3l8_ofilm_cn_ii_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k5e8_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k5e8_ofilm_i.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k5e8_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k5e8_ofilm_i_eeprom.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k5e8_qtech_ii.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
@@ -959,6 +1282,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
@@ -977,6 +1301,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
@@ -997,18 +1324,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsse.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalfeature.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
@@ -1025,6 +1356,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/mibokeh_636_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_636_opencl.bin \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
@@ -1050,6 +1386,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
@@ -1067,6 +1404,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
@@ -1079,6 +1418,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.sdm660.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -1099,6 +1439,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
@@ -1116,6 +1457,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
@@ -1133,6 +1475,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
@@ -1169,9 +1512,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
@@ -1189,6 +1536,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
@@ -1238,12 +1586,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
@@ -1271,6 +1622,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libsse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsse.so \
@@ -1279,7 +1631,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
-    vendor/xiaomi/tulip/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
@@ -1319,6 +1670,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
