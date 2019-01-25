@@ -1251,8 +1251,8 @@
       </iso>
 
       <iso value="4800">
-        <ynr_weights>0,11,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,13,4,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>10</y_nr_level>
         <c_nr_level>50</c_nr_level>
         <c_nr_times>4</c_nr_times>
@@ -1268,8 +1268,8 @@
       </iso>
 
       <iso value="6400">
-        <ynr_weights>0,15,4,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,15,6,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>12</y_nr_level>
         <c_nr_level>55</c_nr_level>
         <c_nr_times>4</c_nr_times>
@@ -1285,8 +1285,8 @@
       </iso>
 
       <iso value="9500">
-        <ynr_weights>0,15,4,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,15,6,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>70</y_nr_level>
         <c_nr_level>60</c_nr_level>
         <c_nr_times>5</c_nr_times>
@@ -1562,8 +1562,8 @@
       </iso>
 
       <iso value="4800">
-        <ynr_weights>0,11,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,13,4,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>10</y_nr_level>
         <c_nr_level>50</c_nr_level>
         <c_nr_times>4</c_nr_times>
@@ -1579,8 +1579,8 @@
       </iso>
 
       <iso value="6400">
-        <ynr_weights>0,15,4,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,15,6,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>12</y_nr_level>
         <c_nr_level>55</c_nr_level>
         <c_nr_times>4</c_nr_times>
@@ -1596,8 +1596,8 @@
       </iso>
 
       <iso value="9500">
-        <ynr_weights>0,15,4,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,15,6,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
         <y_nr_level>70</y_nr_level>
         <c_nr_level>60</c_nr_level>
         <c_nr_times>5</c_nr_times>
