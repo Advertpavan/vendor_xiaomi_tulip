@@ -95,7 +95,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_fullsize_preview_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_fullsize_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="MIHDR">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="MIHDR">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_snapshot_hdr</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_snapshot_hdr</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_default</ISPVideo>
@@ -106,7 +106,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_hdr_preview_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_hdr_video_3a</A3Video>
     </ChromatixName>
-	<ChromatixName sensor_resolution_index="1" special_mode_mask="HHT MODE">
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="HHT MODE">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_snapshot</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_snapshot</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_default</ISPVideo>
@@ -117,7 +117,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_fullsize_preview_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_fullsize_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="WEIXIN">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="WEIXIN">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_video_weixin</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_video_weixin</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_weixin</ISPVideo>
@@ -128,7 +128,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_weixin_video_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_weixin_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="FACE">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="FACE">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_video_face</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_video_face</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_face</ISPVideo>
@@ -139,7 +139,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_face_video_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_face_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="BOKEH">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="BOKEH">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_bokeh_preview</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_bokeh_snapshot</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_default</ISPVideo>
@@ -150,7 +150,7 @@ special_mode_mask values:
       <A3Preview>tulip_s5k3T1_ofilm_global_ii_default_bokeh_preview_3a</A3Preview>
       <A3Video>tulip_s5k3T1_ofilm_global_ii_fullsize_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
       <ISPPreview>tulip_s5k3T1_ofilm_global_ii_preview</ISPPreview>
       <ISPSnapshot>tulip_s5k3T1_ofilm_global_ii_preview</ISPSnapshot>
       <ISPVideo>tulip_s5k3T1_ofilm_global_ii_video_default</ISPVideo>

@@ -136,30 +136,6 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>tulip_s5k5e8_sunny_ii</SensorName>
-	<EepromName>tulip_s5k5e8_sunny_ii</EepromName>
-    <ChromatixName_china>tulip_s5k5e8_sunny_global_ii_chromatix</ChromatixName_china>
-	<ChromatixName>tulip_s5k5e8_sunny_cn_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x07</LaneMask>
-      <LaneAssign>0x20</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.98</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>85.0</HorizontalViewAngle>
-      <VerticalViewAngle>63.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>tulip_s5k2l7_ofilm_i</SensorName>
     <ActuatorName>tulip_s5k2l7_ofilm_i_ak7374</ActuatorName>
@@ -212,78 +188,6 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>tulip_s5k2l7_sunny_cn_ii</SensorName>
-    <ActuatorName>tulip_s5k2l7_sunny_cn_ii_ak7374</ActuatorName>
-    <EepromName>tulip_s5k2l7_sunny_cn_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName_china>tulip_s5k2l7_sunny_global_ii_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_s5k2l7_sunny_cn_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.94</FocalLength>
-      <FNumber>1.9</FNumber>
-      <TotalFocusDistance>2.91</TotalFocusDistance>
-      <HorizontalViewAngle>82.9</HorizontalViewAngle>
-      <VerticalViewAngle>55.7</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>tulip_s5k4h7_ofilm_i</SensorName>
-	<EepromName>tulip_s5k4h7_ofilm_i</EepromName>
-    <ChromatixName>tulip_s5k4h7_ofilm_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-	  <CSIDCore>2</CSIDCore>
-	  <LaneMask>0x1F</LaneMask>
-	  <LaneAssign>0x4320</LaneAssign>
-	  <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-	  <FocalLength>2.99</FocalLength>
-	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>2.99</TotalFocusDistance>
-	  <HorizontalViewAngle>73.0</HorizontalViewAngle>
-	  <VerticalViewAngle>49.0</VerticalViewAngle>
-	  <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>tulip_s5k4h7_sunny_ii</SensorName>
-	<EepromName>tulip_s5k4h7_sunny_ii</EepromName>
-    <ChromatixName>tulip_s5k4h7_sunny_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-	  <CSIDCore>2</CSIDCore>
-	  <LaneMask>0x1F</LaneMask>
-	  <LaneAssign>0x4320</LaneAssign>
-	  <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-	  <FocalLength>3.0</FocalLength>
-	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>3.0</TotalFocusDistance>
-	  <HorizontalViewAngle>74.59</HorizontalViewAngle>
-	  <VerticalViewAngle>49.0</VerticalViewAngle>
-	  <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-    <CameraModuleConfig>
     <CameraId>3</CameraId>
     <SensorName>tulip_ov02a10_ofilm_ii</SensorName>
 	<EepromName>tulip_ov02a10_ofilm_ii</EepromName>
@@ -347,11 +251,11 @@ LensInfo : Information of the lens present in the module.
 	  <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-	  <FocalLength>3.52</FocalLength>
+	  <FocalLength>3.56</FocalLength>
 	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>3.52</TotalFocusDistance>
-	  <HorizontalViewAngle>78.3</HorizontalViewAngle>
-	  <VerticalViewAngle>49.0</VerticalViewAngle>
+	  <TotalFocusDistance>3.56</TotalFocusDistance>
+	  <HorizontalViewAngle>66.0</HorizontalViewAngle>
+	  <VerticalViewAngle>52.0</VerticalViewAngle>
 	  <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
     </CameraModuleConfig>
@@ -371,11 +275,11 @@ LensInfo : Information of the lens present in the module.
 	  <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-	  <FocalLength>3.52</FocalLength>
+	  <FocalLength>3.56</FocalLength>
 	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>3.52</TotalFocusDistance>
-	  <HorizontalViewAngle>78.3</HorizontalViewAngle>
-	  <VerticalViewAngle>49.0</VerticalViewAngle>
+	  <TotalFocusDistance>3.56</TotalFocusDistance>
+	  <HorizontalViewAngle>65.0</HorizontalViewAngle>
+	  <VerticalViewAngle>50.8</VerticalViewAngle>
 	  <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
     </CameraModuleConfig>
